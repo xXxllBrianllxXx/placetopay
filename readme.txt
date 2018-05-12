@@ -1,2 +1,1 @@
-Conectar a WebService de PlaceToPay
-:)
+Conectar a WebService de PlaceToPay :)
