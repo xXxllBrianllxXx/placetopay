@@ -1,4 +1,8 @@
+BY => Brian Alberto Rodriguez Sanchez.
+Telefono => 3137398299
+
 Conectar a WebService de PlaceToPay :)
 
-1- hacer add + commit
-2- git push -f origin master
+El desarrollo lo pueden probar en la pagina =>
+
+http://placetopay.mywebcommunity.org/
