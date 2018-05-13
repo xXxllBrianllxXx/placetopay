@@ -1,5 +1,8 @@
 <?php
 
+$html = '';
+$redireccionar = false;
+
 // Base de datos
 $mysql_conexion= array(
   'host' => "localhost",

@@ -1,6 +1,9 @@
 <html>
 
 <head>
+
+	<?php print redireccionar(); ?>
+
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>PlaceToPay</title>
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
@@ -18,8 +21,8 @@
     <br><br><br>
 		<nav>
 			<ul class="menu">
-			  <li><a href="#">Inicio</a></li>
-				<li><a href="#">Registros</a></li>
+			  <li><a href="index.php">Inicio</a></li>
+				<li><a href="index.php?registros">Registros</a></li>
 			</ul>
 		</nav>
     <br><br><br>
@@ -27,30 +30,7 @@
 
 	<section>
 
-    <form name='placetopay' action='index.php' method='POST'>
-
-      <p>Tipo de persona:</p>
-        <select name='tipo' class='selectpicker' data-live-search='true' data-live-search-placeholder='Search' tabindex='-98'>
-    	    <option value='0'>Natural</option>
-    	    <option value='1'>Jurídica</option>
-    	  </select>
-        <br><br>
-
-      <p>Banco:</p>
-        <select id='bank' name='bank' class='selectpicker' data-live-search='true' data-live-search-placeholder='Search' tabindex='-98'>
-          <option value='0'>Banco 1</option>
-          <option value='1'>Banco 2</option>
-          <option value='2'>Banco 3</option>
-          <option value='3'>Banco 4</option>
-          <option value='4'>Banco 5</option>
-        </select>
-        <br><br>
-
-      <button type='submit' class='form-input--submit js-form-submit'>
-        <i class='hidden fa fa-refresh' aria-hidden='true'></i>
-        <i class='fa fa-arrow-circle-right' aria-hidden='true'></i>
-      </button>
-    </form>
+		<?php print $html; ?>
 
 	</section>
 
